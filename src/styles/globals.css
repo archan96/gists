@@ -38,6 +38,34 @@
   --callout-border-rgb: 172, 175, 176;
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
+
+  --button: var(--whiteSmoke);
+  --accent: var(--system-red);
+  --accent-hover: var(--system-red-hover);
+  --shadow: rgba(0, 0, 0, 0.3);
+  --black: black;
+  --static-black: black;
+  --static-white: white;
+  --white: white;
+  --whiteSmoke: whitesmoke;
+  --system-red: #f21a0c;
+  --system-red-hover: #ed5236;
+  --system-green: #a4e813;
+  --system-light-purple: #bcb6ff;
+  --system-yellow: #ffe500;
+  --system-navy: #030543;
+  --lightGrey: #f6f6f6;
+  --greyTXT: #656565;
+  --load-back: rgba(255, 255, 255, 0.3);
+}
+
+div, button {
+  display: flex;
+
+}
+
+p, input {
+  color: black;
 }
 
 @media (prefers-color-scheme: dark) {

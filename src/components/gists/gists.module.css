@@ -1,0 +1,33 @@
+.container{
+    width: 100%;
+    /* background-color: red; */
+    /* height: ; */
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    margin-bottom: 2vh;
+    border-bottom: 1px solid hsl(0, 0%, 83%);
+    flex-direction: column;
+}
+
+.badge{
+    width: fit-content;
+    padding: 0.5vh 1vw;
+    border-radius: 10vh;
+    background-color: coral;
+    margin-bottom: 2vh;
+}
+
+.forks{
+    all: unset;
+    display: flex;
+    cursor: pointer;
+    margin-top: 1vh;
+    align-items: center;
+}
+
+.forks > img {
+    width: 5vh;
+    height: 5vh;
+    border-radius: 5vh;
+    margin-right: 1vw;
+}
